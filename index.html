@@ -8,22 +8,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <script src="./assets/scripts.js"></script>
     <title>Weather Prediction</title>
 </head>
 <body>
     <main>
         <div id="searchContainer">
-            <input type="text" id="input-search" placeholder="São Paulo">
-            <button class="fa-solid fa-magnifying-glass"></button>
+            <input type="text" id="inputSearch" placeholder="São Paulo">
+            <button class="fa-solid fa-magnifying-glass" onclick="search()"></button>
         </div>
         <div id="cityContainer">
             <span>Tempo em: <span id="cityName">Hortolândia</span></span>
         </div>
         <div id="detailsContainer">
             <i class="fa-solid fa-cloud"></i>
-            <span id="detailsTemperature">21°C</span>
-            <span id="detailsWeather">Nublado</span>
-            <span id="detailshumidity">Umidade</span>
+            <span><span id="detailsTemperature">21</span>°C |</span>
+            <span><span id="detailsWeather">Nublado</span> |</span>
+            <span><span id="detailshumidity">30%</span>%</span>
         </div>
     </main>
 </body>

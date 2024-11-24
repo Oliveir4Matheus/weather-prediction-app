@@ -17,14 +17,15 @@ main {
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    gap:50px;
-    padding: 10px;
+    gap:0;
     background: rgba(255,255,255,0.1);
     border-radius: 25px;
-    border:solid rgba(255,255,255,0.5)5px
+    border:solid rgba(255,255,255,0.5)5px;
+    padding: 10px;
 }
 #searchContainer{
     display: flex;
+    height: 25%;
     justify-content: space-between;
     align-items: center;
 
@@ -48,13 +49,21 @@ main {
     cursor: pointer;
 }
 #cityContainer{
+    display: flex;
+    align-items: center;
     font-size:28px;
+    height: 40%;
 }
 #cityName {
     font-weight: 600;
 }
 
 #detailsContainer {
+    display: flex;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
     font-size: 20px;
     font-weight: 600;
 }
