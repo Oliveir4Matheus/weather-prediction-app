@@ -1,5 +1,3 @@
-## O readme-md está em português mas também tem suporte versão em inglês:
-
 # Weather Prediction App 🌦️
 
 Weather Prediction App é uma aplicação web simples, desenvolvida com **HTML**, **CSS**, e **JavaScript**, que consome uma API de previsão do tempo para exibir informações climáticas baseadas na cidade informada pelo usuário.

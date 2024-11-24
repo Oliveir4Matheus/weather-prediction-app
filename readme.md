@@ -1,5 +1,6 @@
 ## The readme-md is English but also supports the Portuguese version:
-<a src="https://github.com/Oliveir4Matheus/weather-prediction-app\readme-pt.md">Portuguese-version</a>
+[Read in portuguese](https://github.com/Oliveir4Matheus/weather-prediction-app/blob/main/readme-pt.md)
+
 # Weather Prediction App 🌦️
 
 Weather Prediction App is a simple web application, developed with **HTML**, **CSS**, and **JavaScript**, which consumes a weather forecast API to display weather information based on the city entered by the user.
