@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin:0;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(120deg,#24C6DC,#514A9D);
+}
+main {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap:50px;
+    padding: 10px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 25px;
+    border:solid rgba(255,255,255,0.5)5px
+}
+#searchContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#searchContainer input,button{
+    border-radius: 15px;
+    border:none;
+    background-color: rgba(255,255,255,0.1);
+    padding: 5px;
+}
+#searchContainer input{
+    width: 70%;
+    height: 50px;
+    font-size:25px;
+    outline: none;
+    padding-left:30px;
+}
+#searchContainer button {
+    width: 15%;
+    height: 50px;
+    cursor: pointer;
+}
+#cityContainer{
+    font-size:28px;
+}
+#cityName {
+    font-weight: 600;
+}
+
+#detailsContainer {
+    font-size: 20px;
+    font-weight: 600;
+}
